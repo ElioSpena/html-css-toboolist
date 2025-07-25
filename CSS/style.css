@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     text-align: center;
     background-color: rgb(255, 255, 255);
@@ -92,11 +92,20 @@ body {
 
 .main-list ul {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+ul li {
+    padding: 6px;
 }
 
 .main-list strong {
     font-size: 22px;
+}
+
+.task {
+    padding: 12px;
 }
 
 /*Labels */
@@ -131,4 +140,26 @@ body {
 
 .grassgreen-bg {
     background-color: rgb(195, 234, 87);
+}
+
+/*Checked*/
+
+.checked {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 8px;
+
+}
+
+.cross {
+    color: rgb(207, 72, 72);
+}
+
+.check {
+    color: rgb(72, 207, 72);
 }
