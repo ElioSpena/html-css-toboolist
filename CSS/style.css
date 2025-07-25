@@ -16,8 +16,9 @@ body {
     margin: 0 auto;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(217, 222, 229);
     border-radius: 12px;
+
+
 }
 
 
@@ -46,6 +47,30 @@ body {
 /*Buttons*/
 
 .buttons {
+    text-align: left;
     padding: 12px;
-    border-bottom: 1px solid rgb(217, 222, 229);
+    border-bottom: 2px solid rgb(217, 222, 229);
+
+}
+
+.buttons button {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 6px;
+
+}
+
+.add-tasks-button {
+    font-size: 16px;
+    margin-left: 42px;
+    background-color: rgb(110, 110, 209);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.add-section-button {
+    margin-left: 12px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(217, 222, 229);
+    color: rgb(217, 222, 229);
 }
