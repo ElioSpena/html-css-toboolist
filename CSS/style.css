@@ -7,4 +7,45 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: rgb(217, 222, 229);
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(217, 222, 229);
+    border-radius: 12px;
+}
+
+
+/*Header*/
+.header {
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+
+}
+
+.logo {
+    padding: 12px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+.logo span {
+    vertical-align: middle;
+}
+
+/*Buttons*/
+
+.buttons {
+    padding: 12px;
+    border-bottom: 1px solid rgb(217, 222, 229);
 }
